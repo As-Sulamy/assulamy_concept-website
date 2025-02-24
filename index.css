@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+header{
+  background: #008080;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: white;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #00A8E8;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  background: #2C3E50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.feature-box {
+  width: 30%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feature-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.testimonials {
+  background: #e3f2fd;
+  padding: 40px 20px;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 60%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #00A8E8;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background: #1B1E23;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
